@@ -1,11 +1,10 @@
-# IPL Cricket Score Prediction
+# Heart Disease Prediction
 
- ![airplane](Images/ipl.jpg)  
+![airplane](Images/hrt.jpg)  
 
 ## Table of Content ##
 - [Demo](#demo)
 - [Overview](#overview)
-- [Motivation](#motivation)
 - [Technical Aspects](#technical-aspects)
 - [Installation](#installation)
 - [Run](#run)
@@ -20,24 +19,11 @@
 
 ## Demo
 
-![flight](Images/ipl.gif)  
+![flight](Images/heart.gif)  
 
 ## Overview
 
-In this project we gonna predict which IPL Cricket team gonna win based on some features. 
-
-- Number of wickets left
-- Number of balls left
-- On how much scores are the current batsman batting?
-- How much the team had scored in last 5 overs?
-- How much the team had lost wickets in last 5 overs?
-
-I will use some of these factors to predict score using machine learning algorithms. We use regression analysis in machine learning to predict the final score of an ODI or T-20 match
-
-# Motivation
-
-"A leader is the one who makes an impact and provides inspiration." - M.S Dhoni(Former Indian Cricket team Captain.) M.S. Dhoni exemplified these qualities. I really love to playing cricket and football, so always be a sports lover so that I have an idea about applying Machine Learning techniques on various sports and soprts analytics. This thought gave me to get the motivation for doing this project.
-
+Given clinical parameters about a patient, can we predict whether or not they have heart disease? Heart disease, alternatively known as cardiovascular disease, encases various conditions that impact the heart and is the primary basis of death worldwide over the span of the past few decades. It associates many risk factors in heart disease and a need of the time to get accurate, reliable, and sensible approaches to make an early diagnosis to achieve prompt management of the disease. 
 
 ## Technical Aspects
 Since we can deploy atmost 5 app in Heroku as a free service, I came up with a new idea of deploying all my projects in a single web app and controlling the each projects navigation with Flask and Python.
@@ -103,14 +89,15 @@ To run my app on your local machine, do the following steps.
    ```
 
 ## About Dataset
-For this project I have download dataset form [Kaggel]((https://www.kaggle.com/ronitf/heart-disease-uci). In this dataset there are three folders like train , test and validation folder . 
+For this project I have download dataset form [Kaggel](https://www.kaggle.com/c/iplmsac/data). In this dataset there are three folders like train , test and validation folder. Features like Batting Team, Bowling Team, Overs, Runs and Wickets
 ## Deployment on Heroku
 - After successfully running my app on your local machine, you can also deploy my app on heroku by following the steps given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python). You have to do it on your own risk.
 - In case, if you have any issues on deploying the app, please open a new issue by clicking [here](https://github.com/Nivitus/Machine-Learning-Projects/issues/new/choose). Because it may help others while deploying.
-- Here is the Deployment link [click here](https://iplcrickpred.herokuapp.com/)
+- Here is the Deployment link [click here](https://heartdiseapreds.herokuapp.com/)
 
-![movie1](Images/csk.JPG)  
-![movie2](Images/mi.JPG)  
+
+![flight](Images/hh.JPG)  
+
 
 ## To Do
 
